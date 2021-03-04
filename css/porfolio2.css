@@ -1,0 +1,207 @@
+html {
+    scroll-behavior: smooth;
+} 
+body{
+background: #F6D155;
+}
+/*#responsive {
+  min-height: 80vh;
+
+}*/
+/*@media (min-width: 800px) and (max-width: 850px) {
+  
+  .responsive {
+    min-height: 550px;
+
+  }
+}*/
+.navbar-dark a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: calc(16px + 0.5vw);
+    font-family: "Raleway", monospace;
+    margin-right: 20px;
+ }
+ .navbar-expand-lg .navbar-nav .nav-link i {
+    color: #FF6F61;
+    float: right;
+    padding-top: 5px;
+    /*transition: all .3s;*/
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #FF6F61 !important;
+}
+ 
+ .picture  {
+    width: 100%;
+    max-width: 320px;
+    height: 390px;
+    border: 10px solid grey;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+  }
+ .picture img{
+    border-radius: 50%;
+ 	width: 200px;
+    height: 200px;
+     padding:10px; 
+ z-index:-2;   
+
+      
+ } 
+ .picture h1{
+    font-size: calc(20px + 0.5vw);;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+    margin-top: 40px;
+    }
+     .namewriter p {
+    font-size:calc(16px + 0.5vw);;
+    color: white;
+    font-weight:bold;
+    margin-top: 60px;
+    margin-left:  150px;
+}
+
+@media (max-width: 800px) {
+  
+   
+  .picture  {
+    width: 100%;
+    max-width: 310px;
+    height:330px;
+    text-align: center;
+    border: 10px solid grey;
+    padding: 25px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+    }
+
+ .picture img{
+    border-radius: 50%;
+    width: 170px;
+    height: 150px;
+     padding:10px; 
+ } 
+ .picture h1{
+    font-size: calc(20px + 1vw);
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 60px;
+    }
+     .namewriter p {
+    font-size:calc(16px + 0.5vw);;
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left:  45px;
+}
+    }
+
+#introtext {
+    max-height: 400px;
+    height: 250px;
+    color: black;
+    font-size: calc(10px + 1vw);
+    font-family: "Raleway", "Lucida Sans Typewriter", "Lucida Console", "monaco", "Bitstream Vera Sans Mono", monospace;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    }    
+#name{ 
+height: 50px;
+background-color:transparent;
+border-color : white;
+ color: white;
+}
+#email{
+  height: 50px;
+background-color:transparent;
+border-color : white;
+ color: white;
+}
+ 
+ #contact {
+  background-color: #212529;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%; 
+}
+.page-section {
+  padding: 6rem 0;
+}
+.submit {
+   
+  outline: none;
+  color: #fff;
+  padding: .5em 2em;
+  margin-top: 12px;
+  font-size: 1em;
+  background: #01bcfa;
+  border: 1px solid #01bcfa;
+   
+  letter-spacing: 1px;
+}
+ 
+.badge {
+    padding: 9px 10px;
+     
+    font-size: 12px;
+    font-weight: 500;
+     
+    letter-spacing: 1px;
+} 
+.Box {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    min-height: 90px;
+    text-align: center;
+    background: white;
+    border-radius: 3px;
+    border: 1px solid blue;
+    transition: all  .3s ease-in-out;
+}
+.Box:hover
+{
+	transform:translateY(-5px);
+	box-shadow:0 1rem 2rem rgba(31,45,61,.125);
+}
+.skills .skill-progress {
+    height: 8px;
+    width: 100%;
+    background: #d4d4d4;
+    border-radius: 20px;
+    position: relative;
+}
+ 
+.skills .skill-progress .progres{
+	width:10%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	border-radius:20px;
+	background:#f15f79;
+	-webkit-transition:all 1.5s;
+	transition:all 1.5s}
+.icon-link {
+  padding: 20px;
+  font-size: calc(20px + 0.5vw);;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius: 50%;
+}
+
+  
